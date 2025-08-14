@@ -8,7 +8,7 @@ const DesktopSidebar = () => {
         <div className="drawer flex items-start justify-start overflow-y-auto h-screen">
             <ul className=" bg-info-content/50 menu text-base-content min-h-full w-80 p-4">
                 <li><a className='text-lg' href={`/`}><LuLayoutDashboard /> Home</a></li>
-                <li><a className='text-lg' href={`/drinks`}> <RiDrinks2Fill className=''/> Drinks Categroy</a></li>
+                <li><a className='text-lg' href={`/drinksU`}> <RiDrinks2Fill className=''/> Drinks Categroy</a></li>
             </ul>
         </div>
     )
