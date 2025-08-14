@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <asside>
             <DesktopSidebar />
           </asside>
-          <div>
+          <div className="p-2">
             {children}
           </div>
         </main>
