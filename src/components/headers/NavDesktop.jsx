@@ -10,17 +10,10 @@ const NavDesktop = () => {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
-            <li><a>Link</a></li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="bg-base-100 rounded-t-none p-2">
-                  <li className="">Home</li>
-                  <li className="">About</li>
-                  <li className="">Contact</li>
-                </ul>
-              </details>
-            </li>
+            <li><a className='text-xl font-medium'>Contact</a></li>
+            <li><a className='text-xl font-medium'>Search</a></li>
+            <li><a className='text-xl font-medium'>Settings</a></li>
+
           </ul>
         </div>
       </div>

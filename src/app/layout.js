@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavDesktop from "@/components/headers/NavDesktop";
+import DesktopSidebar from "@/components/drawers/DesktopSidebar";
 
 const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
@@ -14,8 +15,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <NavDesktop />
-        <main>{children}</main>
+        <header>
+          <NavDesktop />
+        </header>
+        <main className="flex items-start">
+          <asside>
+            <DesktopSidebar />
+          </asside>
+          <div>
+            {children}
+          </div>
+        </main>
       </body>
     </html>
   );
