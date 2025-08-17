@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
           <NavDesktop />
         </header>
         <main className="flex items-start">
-          <asside>
+          <aside>
             <DesktopSidebar />
-          </asside>
+          </aside>
           <div className="p-2">
             {children}
           </div>

@@ -9,7 +9,7 @@ const NavDesktop = () => {
       <div className="flex-1">
         <div className='flex items-center gap-3 ml-8'>
           <Image src="/globe.svg" alt="Vercel Logo" width={50} height={20} />
-          <p className='text-2xl font-bold text-warning'>Food Bazar <span className='text-success'>.</span></p>
+          <a className='text-2xl font-bold text-warning' href={`/`}>Food Bazar <span className='text-success'>.</span></a>
         </div>
       </div>
       <div className="flex-none">
