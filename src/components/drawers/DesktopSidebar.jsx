@@ -13,9 +13,10 @@ const DesktopSidebar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className="text-lg" href="/pages/drinks">
+                    <Link className="text-lg" href="/drinks">
                         <RiDrinks2Fill /> All Drinks
                     </Link>
+
                 </li>
             </ul>
         </div>
